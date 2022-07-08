@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1050px) {
+  * {
+    font-size: 55.5%;
+  }
+  .footer-cards button {
+    display: block;
+    margin: 1rem auto;
+  }
+  .form {
+    margin: 3rem 6rem;
+  }
+  .stockzo_right {
+    margin: 0;
+  }
+  .footer-cards input {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  * {
+    font-size: 52.5%;
+  }
+
+  .test-btn {
+    max-width: 24vw;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #market,
+  #service,
+  #stockzo,
+  #team,
+  #contact,
+  #testinomials,
+  #blogs {
+    min-height: 70vh;
+  }
+  * {
+    font-size: 46.5%;
+  }
+  #service {
+    flex-direction: column;
+  }
+  .third,
+  .second {
+    max-width: 100%;
+    min-height: 35vh;
+    margin: 2rem;
+    padding: 5rem 6rem;
+  }
+}
+@media only screen and (max-width: 700px) {
+  * {
+    font-size: 40.5%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #market,
+  #service,
+  #stockzo,
+  #contact,
+  #testinomials,
+  #blogs {
+    min-height: 50vh;
+    margin: 5rem 0;
+  }
+  #team {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .team-items {
+    margin: 1rem 0;
+  }
+  .team-items img {
+    width: 28vw;
+  }
+  .contact input {
+    width: 92.5%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  * {
+    font-size: 44.5%;
+  }
+  #market,
+  #stockzo,
+  .team-card,
+  #contact {
+    flex-direction: column;
+  }
+  .market_left {
+    width: 80%;
+    margin: 10rem 0;
+  }
+  .market_right img {
+    max-width: 55vw;
+  }
+  .form-image img {
+    max-width: 39vw;
+  }
+  .form {
+    width: 45%;
+    margin: 3rem 1.5rem;
+  }
+  .form-details {
+    width: 73%;
+  }
+  .blog-items {
+    max-width: 100vw;
+    min-height: 35vh;
+  }
+  .test-btn {
+    max-width: 36vw;
+  }
+  .contact-img img {
+    max-width: 40vw;
+  }
+  .contact-form {
+    padding: 0 7rem;
+  }
+  .footer-cards {
+    max-width: 36%;
+  }
+  #menu {
+    display: block;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  nav {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 1rem;
+  }
+  nav ion-icon {
+    font-size: 2rem;
+  }
+  .slide {
+    min-width: 64vw;
+    max-height: 45vh;
+  }
+  #footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-cards {
+    max-width: 100%;
+  }
+  .footer-img {
+    align-items: center;
+    justify-content: center;
+  }
+}
